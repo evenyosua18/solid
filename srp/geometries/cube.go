@@ -1,4 +1,4 @@
-package geometry
+package geometries
 
 type Cube struct {
 	side float64

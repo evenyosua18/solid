@@ -1,4 +1,4 @@
-package geometry
+package geometries
 
 type Sphere struct {
 	radius float64

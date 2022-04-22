@@ -1,4 +1,4 @@
-package geometry
+package geometries
 
 type Tube struct {
 	height float64

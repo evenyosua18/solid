@@ -1,4 +1,4 @@
-package geometry
+package geometries
 
 type Cone struct {
 	height float64

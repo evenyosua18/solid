@@ -2,7 +2,7 @@ package calculator
 
 import (
 	"math"
-	"solid/srp/geometry"
+	"solid/srp/geometries"
 )
 
 const (
@@ -22,25 +22,25 @@ type VolumeResult struct {
 }
 
 type VolumeCalculator struct {
-	sphere geometry.Sphere
-	cone   geometry.Cone
-	cube   geometry.Cube
-	tube   geometry.Tube
+	sphere geometries.Sphere
+	cone   geometries.Cone
+	cube   geometries.Cube
+	tube   geometries.Tube
 }
 
-func (v *VolumeCalculator) SetSphere(sphere geometry.Sphere) {
+func (v *VolumeCalculator) SetSphere(sphere geometries.Sphere) {
 	v.sphere = sphere
 }
 
-func (v *VolumeCalculator) SetCube(cube geometry.Cube) {
+func (v *VolumeCalculator) SetCube(cube geometries.Cube) {
 	v.cube = cube
 }
 
-func (v *VolumeCalculator) SetTube(tube geometry.Tube) {
+func (v *VolumeCalculator) SetTube(tube geometries.Tube) {
 	v.tube = tube
 }
 
-func (v *VolumeCalculator) SetCone(cone geometry.Cone) {
+func (v *VolumeCalculator) SetCone(cone geometries.Cone) {
 	v.cone = cone
 }
 

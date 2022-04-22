@@ -20,6 +20,6 @@ func (vp *VolumePrinter) PrintVolume(result VolumeResult, geometry string) {
 		fmt.Printf("tube volume: %f\n", result.tubeVolume)
 		break
 	default:
-		fmt.Println("geometry not recognize")
+		fmt.Println("geometries not recognize")
 	}
 }
