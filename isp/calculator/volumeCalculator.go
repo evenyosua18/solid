@@ -1,6 +1,6 @@
 package calculator
 
-import "solid/lsp/geometries"
+import "solid/isp/geometries"
 
 type VolumeResult map[string]float64
 
