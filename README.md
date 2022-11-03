@@ -39,15 +39,4 @@ To **avoid** typical issues in software development:
 
 ### Source
 - https://dave.cheney.net/2016/08/20/solid-go-design
-- 
 
-
-### NANTI DIRAPIHIHN
-SRP Keuntungan :
-- it makes your software easier to implement
-- prevents unexpected side-effects of future changes
-
-*Contoh implementasi
-Ada 4 struct geometri cube, tube, cone, sphere
-Memiliki class sendiri untuk menghitung
-Memiliki class sendiri untuk menampilkan
